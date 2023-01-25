@@ -44,7 +44,7 @@
         <section class="product">
             <div class="container">
             <h1 class="product-offer">Effective Solutions for Your Business</h1>
-                <button class="modal-btn" type="button">Order Service</button> 
+                <button class="modal-btn" type="button" data-modal-open>Order Service</button> 
             </div>
     </section>
         <!-------------- MAIN - SECTION 2  -------------> 
@@ -352,5 +352,15 @@
             </div>
         </div>
     </footer>
+        <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+                <button type="button" class="modal-close-btn" data-modal-close>
+                    <svg class="close-button-click" width="8" height="8">
+                        <use href="./images/sprite.svg#close-button"></use>
+                    </svg>
+                </button>
+            </div>
+        </div>
+<script src="./js/modal.js"></script>
 </body>
 </html>
