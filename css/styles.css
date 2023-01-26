@@ -142,7 +142,7 @@ transition: color var(--transition-time) var(--transition-timing-function);
     border-radius: 2px;
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: -1px;
 }
 
 .menu-link:hover,
